@@ -41,11 +41,19 @@ header nav a {
 }
 
 #inicio {
-  display: flex;
+  /* display: flex;
   align-items: center;
   gap: 32px;
   padding: 24px 80px 128px 80px;
+  position: relative; */
+  padding: 24px 80px 128px 80px;
   position: relative;
+}
+
+.inicio {
+  display: flex;
+  align-items: center;
+  gap: 32px;
 }
 
 h1,
@@ -84,10 +92,17 @@ h2 {
 }
 
 #clinica {
+  /* display: flex;
+  align-items: center;
+  gap: 64px;
+  padding: 64px 80px; */
+  padding: 64px 80px;
+}
+
+.clinica {
   display: flex;
   align-items: center;
   gap: 64px;
-  padding: 64px 80px;
 }
 
 #clinica li {
@@ -97,6 +112,11 @@ h2 {
 
 #farmacia {
   padding: 64px 80px;
+  background-color: #fafafa;
+  /* text-align: center; */
+}
+
+.farmacia {
   text-align: center;
 }
 
@@ -110,10 +130,17 @@ h2 {
 }
 
 #duvidas {
-  display: flex;
+  /* display: flex;
   align-items: center;
   gap: 64px;
-  padding: 64px 80px;
+  padding: 64px 80px; */
+  padding: 64px 80px
+}
+
+.duvidas {
+  display: flex;
+  align-items: center;
+  gap: 54px;
 }
 
 .duvida {
@@ -153,11 +180,19 @@ h2 {
 }
 
 footer {
-  background-color: rgba(255, 152, 108, 0.25);
+  /* background-color: rgba(255, 152, 108, 0.25);
   display: flex;
   justify-content: space-between;
   gap: 80px;
+  padding: 64px 80px; */
+  background-color: rgba(255, 152, 108, 0.25);
   padding: 64px 80px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
 }
 
 footer img,
@@ -190,7 +225,7 @@ footer p a {
   align-items: center;
   justify-content: space-between;
   color: #ffffff;
-  padding: 24px;
+  padding: 24px 80px;
 }
 
 #copy a {
